@@ -1,0 +1,33 @@
+{
+  "title": "Mirror Mirror",
+  "summary": "An example comic using the new Electricomics Generator.",
+  "creators": [
+    {
+      "name": "Tim West",
+      "role": "Writer"
+    },
+    {
+      "name": "Carol Kewley",
+      "role": "Artist"
+    }
+  ],
+  "slug": "electricomics-comic",
+  "version": 1,
+  "publish_date": "14/9/2015",
+  "config": {
+    "orientation": "landscape",
+    "buttons": [
+      {
+        "type": "sound",
+        "action": "elcx:toggleAudio"
+      },
+      {
+        "type": "hint",
+        "action": "elcx:hint"
+      }
+    ],
+    "features": [
+      "tap"
+    ]
+  }
+}
